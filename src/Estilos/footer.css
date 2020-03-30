@@ -1,0 +1,48 @@
+.footer {
+  padding-top: 2%;
+  background-color: #0076e8;
+  color: #ffffff;
+}
+
+.foocontenedor {
+  display: grid;
+  grid-template-columns: 2fr 2fr 3fr;
+  grid-template-areas: "logo section redes";
+}
+
+.foopersona {
+  grid-area: logo;
+  text-align: center;
+  align-self: center;
+}
+
+.foosecciones {
+  grid-area: section;
+}
+.foosecciones h4 {
+  font-size: 1rem;
+}
+.foosecciones ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 0px;
+  height: 90px;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+.foosecciones ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.foosocialMedia {
+  grid-area: redes;
+}
+
+.fooRedContainer {
+}
+
+.fooRedContainer img {
+  width: 25px;
+}

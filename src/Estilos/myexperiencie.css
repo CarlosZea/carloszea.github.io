@@ -1,0 +1,65 @@
+@font-face {
+  font-family: ubuntu-Regular;
+  src: url(../tipografia/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: ubuntu-LightItalic;
+  src: url(../tipografia/Ubuntu-LightItalic.ttf);
+}
+
+.experiencieDetail {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.miti {
+  display: block;
+}
+
+.texto {
+  text-align: left;
+  padding-left: 3%;
+}
+.Empresa {
+  font-family: ubuntu-Regular;
+  font-weight: bold;
+}
+.fecha {
+  font-family: ubuntu-LightItalic;
+  font-size: 0.9rem;
+}
+
+.proyectos {
+  font-family: ubuntu-Regular;
+  display: none;
+}
+.proyectos li {
+  list-style: none;
+}
+
+@media screen and (min-width: 480px) {
+  .aptcontainer {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .proyectos {
+    font-size: 0.8rem;
+    display: block;
+    padding: 0;
+    padding-top: 3%;
+    margin-left: 0;
+  }
+  .miti {
+    width: 50%;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .proyectos {
+    font-size: 1rem;
+  }
+}

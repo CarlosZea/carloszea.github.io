@@ -1,0 +1,58 @@
+@font-face {
+  font-family: ubuntu-Medium;
+  src: url(../tipografia/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: ubuntu-Regular;
+  src: url(../tipografia/Ubuntu-Regular.ttf);
+}
+
+.aptitudes {
+  text-align: center;
+}
+.aptdivision {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.aptcontainer {
+  flex-shrink: 0;
+  border: 3px solid #f1f1f1;
+  border-top: 0px;
+  display: inline-block;
+  width: 250px;
+  padding: 2%;
+  box-shadow: 8px 6px 2px #f1f1f1;
+  border-radius: 5%;
+}
+
+.aptcontainer img {
+  height: 25%;
+}
+h4 {
+  font-size: 1.3rem;
+  font-family: ubuntu-Medium;
+}
+.aptadquiridas {
+  font-family: ubuntu-Regular;
+  text-align: left;
+}
+
+.aptadquiridas li {
+  list-style: none;
+}
+
+@media screen and (min-width: 480px) {
+  .aptcontainer {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .aptcontainer {
+    width: 25%;
+  }
+}

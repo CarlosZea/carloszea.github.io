@@ -1,0 +1,42 @@
+@font-face {
+  font-family: ubuntu-Regular;
+  src: url(../tipografia/Ubuntu-Regular.ttf);
+}
+
+.educacion {
+  text-align: center;
+}
+.edudivision {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.educontainer {
+  display: inline-block;
+  width: 275px;
+  padding: 2%;
+  font-family: ubuntu-Regular;
+}
+
+.educontainer img {
+  width: 30%;
+}
+
+.edutitulo {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px;
+}
+@media screen and (min-width: 480px) {
+  .educontainer {
+    width: 325px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .educontainer {
+    width: 22%;
+  }
+}

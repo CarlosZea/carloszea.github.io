@@ -1,0 +1,125 @@
+@font-face {
+  font-family: ubuntu-Medium;
+  src: url(../tipografia/Ubuntu-Medium.ttf);
+}
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url(../tipografia/Ubuntu-Bold.ttf);
+}
+body {
+  background-color: #ffffff;
+  font-size: 12pt;
+}
+
+h2 {
+  font-family: Ubuntu-Bold;
+  border-bottom: 2px solid #0076e8;
+  width: fit-content;
+  display: inline-block;
+  padding: 0 2%;
+}
+
+.grid {
+  display: grid;
+}
+
+.myheadmenu {
+  font-family: ubuntu-Medium;
+  grid-template-columns: 1fr 8fr;
+  grid-template-areas: "ulogo umenu";
+  margin-bottom: 3%;
+}
+
+.menu {
+  grid-area: umenu;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.logo {
+  grid-area: ulogo;
+  justify-self: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.listaMenu {
+  list-style: none;
+  display: inline-block;
+  padding: 3%;
+}
+
+.listaMenu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.listaMenu a:hover {
+  color: #0076e8;
+}
+
+h1,
+h2,
+h3,
+.centrado {
+  text-align: center;
+}
+
+.introduction {
+  font-family: ubuntu-Medium;
+  background-color: #0076e8;
+  grid-template-columns: 1fr;
+  grid-template-areas: "parrafo";
+  height: 250px;
+}
+.photoContainer {
+  display: none;
+}
+
+.myintroduction {
+  text-align: justify;
+  grid-area: parrafo;
+  font-size: 1.2rem;
+  align-self: center;
+  justify-self: center;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 70%;
+  line-height: 2rem;
+}
+
+.experience {
+  border-bottom: 1px solid #0076e8;
+  font-weight: bolder;
+  padding: 4%;
+}
+
+@media screen and (min-width: 650px) {
+  .introduction {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "foto parrafo";
+    height: 400px;
+  }
+
+  .photoContainer {
+    display: block;
+    background-color: #000000;
+    text-align: center;
+    margin-left: 0;
+    margin-top: -4%;
+    height: inherit;
+  }
+
+  .photo {
+    grid-area: foto;
+    height: inherit;
+    border: 2px solid #000000;
+  }
+
+  .myintroduction {
+    line-height: 2.5rem;
+  }
+}

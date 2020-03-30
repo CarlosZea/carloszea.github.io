@@ -1,0 +1,35 @@
+@font-face {
+  font-family: ubuntu-Regular;
+  src: url(../tipografia/Ubuntu-Regular.ttf);
+}
+
+.logros {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.contener {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.Datos {
+  font-family: ubuntu-Regular;
+  text-align: left;
+  display: inline-block;
+  width: 60%;
+  text-align: justify;
+}
+
+.Datos span {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 650px) {
+  .contener {
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: parrafos imagen;
+  }
+}
