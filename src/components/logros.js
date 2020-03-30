@@ -5,7 +5,7 @@ import champion from "../images/success.svg";
 class Logros extends React.Component {
   render() {
     return (
-      <section className="logros">
+      <section id="logros" className="logros">
         <h2>Logros</h2>
         <div className="contener">
           <div className="Datos">

@@ -6,8 +6,12 @@
 
 .foocontenedor {
   display: grid;
-  grid-template-columns: 2fr 2fr 3fr;
-  grid-template-areas: "logo section redes";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "logo"
+    "section"
+    "redes";
 }
 
 .foopersona {
@@ -21,28 +25,52 @@
 }
 .foosecciones h4 {
   font-size: 1rem;
+  margin-left: 2%;
 }
 .foosecciones ul {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   padding-left: 0px;
-  height: 90px;
-  align-content: stretch;
+  height: 60px;
+  align-content: space-around;
   flex-wrap: wrap;
 }
 .foosecciones ul li {
-  text-decoration: none;
   list-style: none;
+}
+
+.foosecciones ul li a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .foosocialMedia {
   grid-area: redes;
 }
 
+.foosocialMedia h4 {
+  font-size: 1rem;
+  margin-left: 2%;
+}
+
 .fooRedContainer {
+  display: inline-block;
+  margin: 3%;
+  padding: 5px;
 }
 
 .fooRedContainer img {
   width: 25px;
+}
+@media screen and (min-width: 650px) {
+  .foocontenedor {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo section redes";
+  }
+  .foosecciones ul {
+    height: 90px;
+  }
 }

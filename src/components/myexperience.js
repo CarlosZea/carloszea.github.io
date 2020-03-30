@@ -21,7 +21,7 @@ class MyExperience extends React.Component {
 
   render() {
     return (
-      <section className="experiencieDetail">
+      <section id="experiencia" className="experiencieDetail">
         <h2>Experiencia</h2> <br />
         {/* carousel */}
         <Carousel>

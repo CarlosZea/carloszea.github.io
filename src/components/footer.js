@@ -6,7 +6,7 @@ import "../Estilos/footer.css";
 class Footer extends React.Component {
   render() {
     return (
-      <section className="footer">
+      <section id="contacto" className="footer">
         <div className="foocontenedor">
           <div className="foopersona">
             <h2>Carlos Zea</h2>
@@ -15,38 +15,44 @@ class Footer extends React.Component {
             <h4>Personal</h4>
             <ul>
               <li>
-                <a>Experiencia</a>
+                <a href="#experiencia">Experiencia</a>
               </li>
               <li>
-                <a>Blog </a>
+                <a href="#">Blog </a>
               </li>
               <li>
-                <a>Aptitudes</a>
+                <a href="#aptitudes">Aptitudes</a>
               </li>
               <li>
-                <a>Formación</a>
+                <a href="#logros">Logros</a>
               </li>
               <li>
-                <a>Logros</a>
+                <a href="#formacion">Formación</a>
               </li>
               <li>
-                <a>Contacto</a>
+                <a href="#Contacto">Contacto</a>
               </li>
             </ul>
           </div>
           <div className="foosocialMedia">
-            <h4>Redes Sociales</h4>
+            <h4>Contacto</h4>
             <div className="fooRedContainer">
-              <img src={github} alt="github" />
-              <span>https://github.com/CarlosZea</span>
+              <a target="_blank" href="https://github.com/CarlosZea">
+                <img src={github} alt="github" />
+              </a>
             </div>
             <div className="fooRedContainer">
-              <img src={twitter} alt="twitter" />
-              <span>https://twitter.com/CarlosZea_CAZ</span>
+              <a target="_blank" href="https://twitter.com/CarlosZea_CAZ">
+                <img src={twitter} alt="twitter" />
+              </a>
             </div>
             <div className="fooRedContainer">
-              <img src={linkedin} alt="linkedin" />
-              <span>https://www.linkedin.com/in/carlos-zea-10a218169</span>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/carlos-zea-10a218169"
+              >
+                <img src={linkedin} alt="linkedin" />
+              </a>
             </div>
           </div>
         </div>

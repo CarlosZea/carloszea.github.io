@@ -8,19 +8,19 @@ class Cabeza extends React.Component {
           <img className="logo" src={miFoto} alt="Logo" />
           <ul className="menu">
             <li className="listaMenu">
-              <a href="#">Experiencia</a>
+              <a href="#experiencia">Experiencia</a>
             </li>
             <li className="listaMenu">
-              <a href="#">Aptitudes</a>
+              <a href="#aptitudes">Aptitudes</a>
             </li>
             <li className="listaMenu">
-              <a href="#">Formación</a>
+              <a href="#formacion">Formación</a>
             </li>
             <li className="listaMenu">
-              <a href="#">Logros</a>
+              <a href="#logros">Logros</a>
             </li>
             <li className="listaMenu">
-              <a href="#">Contacto</a>
+              <a href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>

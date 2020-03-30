@@ -7,7 +7,7 @@ import "../Estilos/formacion.css";
 class Formacion extends React.Component {
   render() {
     return (
-      <section className="educacion">
+      <section id="formacion" className="educacion">
         <h2>Formación</h2>
         <div className="edudivision">
           <div className="educontainer">
