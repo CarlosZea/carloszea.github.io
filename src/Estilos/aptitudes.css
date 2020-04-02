@@ -20,7 +20,6 @@
 }
 
 .aptcontainer {
-  flex-shrink: 0;
   border: 3px solid #f1f1f1;
   border-top: 0px;
   display: inline-block;
@@ -28,11 +27,10 @@
   padding: 2%;
   box-shadow: 8px 6px 2px #f1f1f1;
   border-radius: 5%;
-  height: 170px;
 }
 
 .aptcontainer img {
-  height: 50%;
+  height: 75px;
 }
 h4 {
   font-size: 1.3rem;
@@ -42,11 +40,21 @@ h4 {
 .aptadquiridas {
   font-family: ubuntu-Regular;
   text-align: left;
+}
+
+.cerrado {
   display: none;
+}
+
+.show {
+  display: block;
 }
 
 .aptadquiridas li {
   list-style: none;
+  .aptcontainer img {
+    height: 25%;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -56,18 +64,27 @@ h4 {
   .more {
     display: block;
   }
+
+  .more:hover {
+    text-decoration: underline;
+    color: aqua;
+    cursor: pointer;
+  }
 }
 @media screen and (min-width: 650px) {
   .aptcontainer {
     height: 350px;
   }
+
+  .aptcontainer img {
+    height: 100px;
+  }
+
   h4 {
     font-size: 1.3rem;
     font-family: ubuntu-Medium;
   }
-  .aptcontainer img {
-    height: 25%;
-  }
+
   .more {
     display: none;
   }
