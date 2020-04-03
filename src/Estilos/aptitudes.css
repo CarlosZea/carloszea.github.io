@@ -52,9 +52,6 @@ h4 {
 
 .aptadquiridas li {
   list-style: none;
-  .aptcontainer img {
-    height: 25%;
-  }
 }
 
 @media screen and (min-width: 480px) {

@@ -25,15 +25,57 @@ h2 {
 
 .myheadmenu {
   font-family: ubuntu-Medium;
-  grid-template-columns: 1fr 8fr;
-  grid-template-areas: "ulogo umenu";
-  margin-bottom: 3%;
+  grid-template: 1fr 1fr/ 1fr;
+  grid-template-areas:
+    "Icono"
+    "umenu";
+  text-align: center;
+  height: fit-content;
 }
 
 .menu {
+  position: absolute;
+  background-color: rgba(0, 14, 28, 0.8);
+  top: 10%;
   grid-area: umenu;
-  text-align: right;
-  padding-right: 5%;
+  left: -100vw;
+  z-index: 3;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  padding: 0;
+  line-height: 40px;
+  width: 100%;
+}
+
+.listaMenu {
+  display: block;
+}
+
+.listaMenu a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.listaMenu a:hover {
+  color: #0076e8;
+}
+
+.burger {
+  grid-area: Icono;
+  margin-top: 3%;
+}
+
+.burger:hover {
+  border-radius: 50%;
+  background-color: #f1f1f1;
+}
+
+.menu-active {
+  top: 10%;
+  left: 0;
+  width: 100%;
 }
 
 .logo {
@@ -42,23 +84,6 @@ h2 {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-}
-
-.listaMenu {
-  list-style: none;
-  display: inline-block;
-  padding: 3%;
-}
-
-.listaMenu a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: bolder;
-  font-size: 1.2rem;
-}
-
-.listaMenu a:hover {
-  color: #0076e8;
 }
 
 h1,
@@ -98,6 +123,33 @@ h3,
 }
 
 @media screen and (min-width: 650px) {
+  .myheadmenu {
+    grid-template: 1fr/1fr 8fr;
+    grid-template-areas: "ulogo umenu";
+    margin-bottom: 3%;
+  }
+  .burger {
+    display: none;
+  }
+
+  .menu {
+    position: relative;
+    background-color: transparent;
+    color: #000000;
+    left: auto;
+    grid-area: umenu;
+    text-align: right;
+    padding-right: 5%;
+  }
+
+  .listaMenu {
+    list-style: none;
+    display: inline-block;
+    padding: 3%;
+  }
+  .listaMenu a {
+    color: #000000;
+  }
   .introduction {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "foto parrafo";

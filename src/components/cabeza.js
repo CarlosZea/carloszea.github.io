@@ -1,12 +1,27 @@
 import React from "react";
 import miFoto from "../images/1.jpg";
+import hamburguesa from "../images/menu.svg";
 class Cabeza extends React.Component {
+  constructor(props) {
+    super(props);
+    this.activeMenu = React.createRef();
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick() {
+    this.activeMenu.current.classList.toggle("menu-active");
+  }
   render() {
     return (
       <div>
         <div className="grid myheadmenu">
-          <img className="logo" src={miFoto} alt="Logo" />
-          <ul className="menu">
+          <div>
+            <img
+              onClick={this.handleClick}
+              src={hamburguesa}
+              className="burger"
+            />
+          </div>
+          <ul ref={this.activeMenu} className="menu">
             <li className="listaMenu">
               <a href="#experiencia">Experiencia</a>
             </li>
