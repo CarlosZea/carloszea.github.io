@@ -1,6 +1,6 @@
 import React from "react";
 import "../Estilos/logros.css";
-import champion from "../images/success.svg";
+import champion from "../images/success.png";
 
 class Logros extends React.Component {
   render() {

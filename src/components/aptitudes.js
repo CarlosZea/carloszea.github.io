@@ -1,7 +1,7 @@
 import React from "react";
 import "../Estilos/aptitudes.css";
 import Networks from "../images/data.svg";
-import programming from "../images/Capa8.svg";
+import programming from "../images/capa8.svg";
 import servers from "../images/api.svg";
 class Aptitudes extends React.Component {
   constructor(props) {
@@ -70,7 +70,7 @@ class Aptitudes extends React.Component {
           </div>
           <div className="aptcontainer">
             <img src={programming} alt="Programación" />
-            <h4>Programación</h4>
+            <h4>Desarrollo de Software</h4>
             <div onClick={this.handleClick.bind(this, "2")} className="more">
               {this.state.valor2}
             </div>
