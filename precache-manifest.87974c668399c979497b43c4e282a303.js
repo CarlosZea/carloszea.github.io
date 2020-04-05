@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abbe2e15404254226cd9f41647987a2b",
+    "revision": "d549689e1c0ced6a7ac0440a11355f81",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "32c71e1bfc37646cf36d",
+    "revision": "e735492648e60dcde305",
     "url": "/static/css/main.bcde1a5d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.645a4d5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32c71e1bfc37646cf36d",
-    "url": "/static/js/main.87789d57.chunk.js"
+    "revision": "e735492648e60dcde305",
+    "url": "/static/js/main.47896446.chunk.js"
   },
   {
     "revision": "78ff9c3338cda04c05ba",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8bd1e663b83006e09b588a0f7d6d53f6",
     "url": "/static/media/1.8bd1e663.jpg"
-  },
-  {
-    "revision": "e0b28ac162c8bfbf05e51ec56b4d614a",
-    "url": "/static/media/Capa8.e0b28ac1.svg"
   },
   {
     "revision": "e00e2a77dd88a8fe75573a5d993af76a",
@@ -52,36 +48,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Ubuntu-Regular.2505bfbd.ttf"
   },
   {
-    "revision": "3d88372a63859afb42cc7c5e225f7687",
-    "url": "/static/media/api.3d88372a.svg"
+    "revision": "369df8c6931cd692bda5569bea857013",
+    "url": "/static/media/api.369df8c6.svg"
   },
   {
-    "revision": "05801b29b67d3972357e1e23f6e8c812",
-    "url": "/static/media/book.05801b29.svg"
+    "revision": "6d8ac613661137a1e6f561efce6198ea",
+    "url": "/static/media/book.6d8ac613.svg"
   },
   {
-    "revision": "16d92ff8c5a22a216357db82c8510515",
-    "url": "/static/media/colegio.16d92ff8.svg"
+    "revision": "8d373b65985125118a5fd98d4da3425a",
+    "url": "/static/media/capa8.8d373b65.svg"
   },
   {
-    "revision": "3ced21fe2abbf9fc3fb58c24bfa7dd72",
-    "url": "/static/media/data.3ced21fe.svg"
+    "revision": "3b5adbcb51e5a28b7d49c02b0163c029",
+    "url": "/static/media/colegio.3b5adbcb.svg"
   },
   {
-    "revision": "b963dff66d9a9cd66bdd03e42ed0a8ab",
-    "url": "/static/media/github.b963dff6.svg"
+    "revision": "f1dbea658ef4d9a8c199bbcfc51e56d3",
+    "url": "/static/media/data.f1dbea65.svg"
   },
   {
-    "revision": "684337e0ffd664572ee34237fd274816",
-    "url": "/static/media/linkedin.684337e0.svg"
+    "revision": "da4923f31a38df06ed9583c4d653c55b",
+    "url": "/static/media/github.da4923f3.svg"
+  },
+  {
+    "revision": "69af0beffa8aaab7c4dc9e3ceebd17f3",
+    "url": "/static/media/linkedin.69af0bef.svg"
   },
   {
     "revision": "ee04e32ee533460f1262e9c513c44b8b",
     "url": "/static/media/menu.ee04e32e.svg"
   },
   {
-    "revision": "c5ba16f20ae585a45d0a5443b34921a7",
-    "url": "/static/media/success.c5ba16f2.svg"
+    "revision": "f786895b9396b0e2e5a37f16acc4c2d2",
+    "url": "/static/media/success.f786895b.png"
   },
   {
     "revision": "0f9b415d91cf32195a989a9252ad7246",
@@ -96,11 +96,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/t3.769d1a2a.svg"
   },
   {
-    "revision": "7b688aa47b38a718c5105697fd2c3b44",
-    "url": "/static/media/twitter.7b688aa4.svg"
+    "revision": "016a709a5a85625f694377bc81e68ee9",
+    "url": "/static/media/twitter.016a709a.svg"
   },
   {
-    "revision": "f14ddd5d84dbe066c3be07b6af3055f5",
-    "url": "/static/media/university.f14ddd5d.svg"
+    "revision": "0fb36b134ab083bdbed712d7432768bb",
+    "url": "/static/media/university.0fb36b13.svg"
   }
 ]);
